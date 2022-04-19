@@ -1,4 +1,4 @@
-package Lesson1;
+package Lesson1.Builder;
 
 public class Run {
     public static void main(String[] args) {
