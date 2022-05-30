@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Student Info Page</h1>
+
+<h3 th:text="${'ID: ' + student.id}"/>
+<h3 th:text="${'Name: ' + student.name}"/>
+<h3 th:text="${'Age: ' + student.age}"/>
+
+
+<a th:href="@{'/show_form'}">На страницу с командами</a>
+
+</body>
+</html>
+
+</body>
+</html>

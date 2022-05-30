@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Simple student form</h1>
+
+<form method="post" th:action="@{'/student_add'}">
+    <span>age</span>>
+    <input name="age" type="number">
+    <span>name</span>
+    <input name="name" type="text">
+    <button type="submit">Добавить студента</button>
+</form>
+
+<form method="post" th:action="@{'/student_change'}">
+    <span>id</span>>
+    <input name="id" type="number">
+    <span>age</span>>
+    <input name="age" type="number">
+    <span>name</span>
+    <input name="name" type="text">
+    <button type="submit">Изменить возраст и имя студета по ID</button>
+</form>
+
+<form method="get" th:action="@{'/students'}">
+    <span>id</span>>
+    <input name="id" type="number">
+    <button type="submit">Найти студента</button>
+</form>
+
+<form method="get" th:action="@{'student_delete'}">
+    <span>id</span>>
+    <input name="id" type="number">
+    <button type="submit">Удалить студента</button>
+</form>
+
+<form method="get" th:action="@{'student_show'}">
+    <button type="submit">Показать всех студентов</button>
+</form>
+
+</body>
+</html>
