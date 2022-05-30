@@ -37,7 +37,7 @@
     <retain-sticky-names value="false" />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql" connection-id="b49520dc-8883-4d7d-a8a3-ce788aa06064" session-id="MAIN" current-schema="information_schema" />
+    <mapping file-url="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql" connection-id="601fa3b1-e767-4e42-90a7-bcc60feba5ab" session-id="MAIN" current-schema="information_schema" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />
