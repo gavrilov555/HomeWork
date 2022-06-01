@@ -42,6 +42,7 @@ public class StudentController {
 
     @GetMapping("/student_show")
     public String redirectStudentsPage() {
+
         return "redirect:/students_page";
     }
 
