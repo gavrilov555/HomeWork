@@ -2,8 +2,9 @@ package lesson7.Repo;
 
 import lesson7.Entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-
+@Repository
 public interface StudentRepo extends JpaRepository <Student, Long> {
 
  /*   private List<Student> students;

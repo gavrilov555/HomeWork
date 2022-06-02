@@ -4,12 +4,13 @@ import lombok.*;
 
 import javax.persistence.*;
 
+/*
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "Student")
+@Table (name = "Student")
 public class Student {
 
     @Id
@@ -38,3 +39,5 @@ public class Student {
                 '}';
     }
 }
+
+ */

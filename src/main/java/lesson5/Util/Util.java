@@ -1,5 +1,5 @@
 package lesson5.Util;
-
+/*
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
@@ -29,3 +29,5 @@ public class Util {
         getSessionFactory().close();
     }
 }
+
+ */

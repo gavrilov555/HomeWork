@@ -1,5 +1,5 @@
 package lesson5.services;
-
+/*
 import lesson5.Entity.Student;
 import lesson5.repository.StudentRepository;
 import org.hibernate.SessionFactory;
@@ -61,3 +61,5 @@ public class StudentService {
     }
 
 }
+
+ */

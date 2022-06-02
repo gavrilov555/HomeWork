@@ -1,6 +1,6 @@
 package Lesson1.CodeReview;
 
-public class LightWeightCar extends Car implements Moveable{
+/*public class LightWeightCar extends Car implements Moveable{
     @Override
     void open() {
         System.out.println("Car is open");
@@ -11,3 +11,5 @@ public class LightWeightCar extends Car implements Moveable{
     }
 
 }
+
+ */

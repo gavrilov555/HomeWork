@@ -1,5 +1,5 @@
 package lesson5.repository;
-
+/*
 import lesson5.Entity.Student;
 
 import java.util.List;
@@ -14,4 +14,6 @@ public interface StudentRepository extends Repository<Student, Long> {
 
     boolean removeAll();
 
-}
+
+
+ */
