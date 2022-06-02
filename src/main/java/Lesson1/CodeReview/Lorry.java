@@ -1,7 +1,7 @@
 package Lesson1.CodeReview;
 
 // наследуется от класса Car, не указан implements от инферфейсов Moveable и Stopable
-class Lorry extends Car implements Moveable, Stopable {
+/*class Lorry extends Car implements Moveable, Stopable {
 
     //не указана анотация Override (не обязательно, но улучшается читаемость кода)
     @Override
@@ -26,3 +26,5 @@ class Lorry extends Car implements Moveable, Stopable {
 
     }
 }
+
+ */

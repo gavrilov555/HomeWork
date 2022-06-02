@@ -1,14 +1,11 @@
 package lesson5.repository;
-
-
+/*
 import lesson5.Entity.Student;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-
 import java.util.List;
 
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 
 public class StudentRepositoryImpl implements StudentRepository {
@@ -54,7 +51,7 @@ public class StudentRepositoryImpl implements StudentRepository {
     }
 
     @Override
-    public boolean deleteById(Long aLong) {
+    public boolean deleteById(Long id) {
         try (Session session = factory.getCurrentSession()) {
             session.beginTransaction();
             session.getNamedQuery("deleteById")
@@ -118,3 +115,5 @@ public class StudentRepositoryImpl implements StudentRepository {
         }
     }
 }
+
+ */

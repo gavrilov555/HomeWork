@@ -1,6 +1,6 @@
 package lesson5.repository;
 
-
+/*
 import java.util.List;
 
 public interface Repository<T, ID> {
@@ -16,3 +16,5 @@ public interface Repository<T, ID> {
     boolean deleteById(ID id);
 
 }
+
+ */

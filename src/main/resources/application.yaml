@@ -3,11 +3,9 @@ server:
   servlet:
     context-path: /app
 spring:
-  main:
-    web-application-type: none
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost/student
+    url: jdbc:postgresql://localhost:5432/student
     username: postgres
     password: next5
   jpa:
